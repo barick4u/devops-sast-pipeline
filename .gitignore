@@ -1,0 +1,60 @@
+# ============================================
+# Terraform
+# ============================================
+*.tfstate
+*.tfstate.*
+.terraform/
+.crash/
+.terraform.lock.hcl
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform.tfvars
+terraform.tfvars.json
+*.backup
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.egg-info/
+
+# ============================================
+# SonarQube
+# ============================================
+.sonar/
+.report-task.txt
+.scannerwork/
+
+# ============================================
+# Jenkins Workspace Artifacts
+# ============================================
+/workspace/
+/logs/
+/jobs/
+
+# ============================================
+# Docker
+# ============================================
+*.log
+*.pid
+
+# ============================================
+# Node/Editor/System
+# ============================================
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# ============================================
+# Secrets (if accidentally created)
+# ============================================
+secrets.env
+.env.*
